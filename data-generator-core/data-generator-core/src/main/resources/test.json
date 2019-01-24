@@ -1,0 +1,13 @@
+{
+	"user": "string={random_min_max=()]}",
+	"users": "list={ref:customers={random=(100)}}",
+	"age": "int{random[list(100,500)]}",
+	"loggedIn": "boolean{true,false}",
+	"list": "list:customer{10}",
+	"customers": [
+		{
+			"name": "string={testString}",
+			"address": "string={fixed=(testString)}"
+		}
+	]
+}
