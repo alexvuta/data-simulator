@@ -2,19 +2,22 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-
-	<groupId>com.vuta</groupId>
-	<artifactId>data-generator-core</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+ 
+	<artifactId>generator-core</artifactId>
 	<packaging>jar</packaging>
 
-	<name>data-generator-core</name>
+	<name>data-simulator-generator-core</name>
 	<url>http://maven.apache.org</url>
+	
+	<parent>
+		<groupId>com.vuta.data-simulator</groupId>
+		<artifactId>parent</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+		<relativePath>../</relativePath>
+	</parent>
 
 	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<maven.compiler.target>1.8</maven.compiler.target>
-		<maven.compiler.source>1.8</maven.compiler.source>
+
 	</properties>
 
 	<dependencies>
